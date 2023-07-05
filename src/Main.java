@@ -16,23 +16,20 @@ public class Main {
         Parallelogram parallelogram = new Parallelogram();
         parallelogram.setSide(20,5);
 
-        NamePrinter namePrinter = new NamePrinter();
-        AreaPrinter areaPrinter = new AreaPrinter();
+        NamePrinter.printName(quad); //Figure name is Quad
+        AreaPrinter.printArea(quad); //Square of Quad is 25.0
 
-        namePrinter.printName(quad); //Figure name is Quad
-        areaPrinter.printArea(quad); //Square of Quad is 25.0
+        NamePrinter.printName(circle); //Figure name is Circle
+        AreaPrinter.printArea(circle); //Square of Circle is 3.141592653589793
 
-        namePrinter.printName(circle); //Figure name is Circle
-        areaPrinter.printArea(circle); //Square of Circle is 3.141592653589793
+        NamePrinter.printName(rectangle); //Figure name is Rectangle
+        AreaPrinter.printArea(rectangle); //Square of Rectangle is 20.0
 
-        namePrinter.printName(rectangle); //Figure name is Rectangle
-        areaPrinter.printArea(rectangle); //Square of Rectangle is 20.0
+        NamePrinter.printName(triangle); //Figure name is Triangle
+        AreaPrinter.printArea(triangle); //Square of Triangle is 30.0
 
-        namePrinter.printName(triangle); //Figure name is Triangle
-        areaPrinter.printArea(triangle); //Square of Triangle is 30.0
-
-        namePrinter.printName(parallelogram); //Figure name is Parallelogram
-        areaPrinter.printArea(parallelogram); //Square of Parallelogram is 100.0
+        NamePrinter.printName(parallelogram); //Figure name is Parallelogram
+        AreaPrinter.printArea(parallelogram); //Square of Parallelogram is 100.0
 
     }
 }
